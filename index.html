@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>JavaScript Quiz</h1>
+        <form id="quizForm">
+            <div class="question-block">
+                <p>1. What is the smallest country in the world?</p>
+                <input type="radio" name="q1" value="Vatican" id="q1a"><label for="q1a">Vatican</label><br>
+                <input type="radio" name="q1" value="Monaco" id="q1b"><label for="q1b">Monaco</label><br>
+                <input type="radio" name="q1" value="Bahrain" id="q1c"><label for="q1c">Bahrain</label><br>
+            </div>
+            <div class="question-block">
+                <p>2. What is 2 + 2?</p>
+                <input type="radio" name="q2" value="3" id="q2a"><label for="q2a">3</label><br>
+                <input type="radio" name="q2" value="4" id="q2b"><label for="q2b">4</label><br>
+                <input type="radio" name="q2" value="5" id="q2c"><label for="q2c">5</label><br>
+            </div>
+            <div class="question-block">
+                <p>3. Which language is used for web apps?</p>
+                <input type="radio" name="q3" value="JavaScript" id="q3a"><label for="q3a">JavaScript</label><br>
+                <input type="radio" name="q3" value="Python" id="q3b"><label for="q3b">Python</label><br>
+                <input type="radio" name="q3" value="Java" id="q3c"><label for="q3c">Java</label><br>
+            </div>
+            <button type="button" id="submitBtn">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
